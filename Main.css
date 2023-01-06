@@ -1,0 +1,50 @@
+main{
+    width: 90%;
+    padding-top: 7.12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+    align-self: center;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    padding: 6.25rem;
+}
+main h1{
+    font-size: 4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.125rem;
+    margin-bottom: 0.25rem;
+}
+main h2{
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 2rem;
+}
+main button{
+    height: 3.87rem;
+    width: 13rem;
+    border-radius: 62rem;
+    font-size: 1.25rem;
+    font-family: 'Inter', sans-serif;
+    background: white;
+    border: none;
+    color: #210535;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+}
+main img{
+    position:static;
+    padding-right: 6.25rem;
+
+}
