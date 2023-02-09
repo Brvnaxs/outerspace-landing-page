@@ -1,2 +1,3 @@
 - Template que usei como inspiração: https://www.figma.com/community/file/1099339336599890125
 - Fiz a animação do background seguindo este tutorial (fiz pequenas mudanças): https://www.youtube.com/watch?v=qeR67fOFAEI&t=604s
+- Link: https://outerspace.vercel.app/
