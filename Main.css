@@ -26,7 +26,7 @@ main h2{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 0.8rem;
 }
 main button{
     height: 3.87rem;
@@ -47,4 +47,39 @@ main img{
     position:static;
     padding-right: 6.25rem;
 
+}
+@media screen and (max-width: 600px) {
+    main button{
+        height: fit-content;
+        font-size: 0.62rem;
+        width: fit-content;
+        padding: 0.1rem;
+        margin-bottom: 1.5rem;
+    }
+    main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        position: static;
+    }
+    main h1{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    main h2{
+        font-size: 0.9rem
+    }
+    main img{
+        align-self: center;
+        height: 300px;
+        width: 370px;
+        padding-left: 30%;
+       
+        
+    }
+    .infos{
+        padding: 0;
+        justify-content: center;
+        align-self: center;
+    }
 }
