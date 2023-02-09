@@ -49,3 +49,8 @@ body{
     0 0 100px #fff4;
 
 }
+@media screen and (max-width: 600px) {
+    .container{
+        display: none;
+    }
+}
